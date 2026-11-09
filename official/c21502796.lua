@@ -23,5 +23,6 @@ function s.operation(e,tp,eg,ep,ev,re,r,rp)
 		Duel.HintSelection(sg)
 		Duel.Destroy(sg,REASON_EFFECT)
 	end
+    Duel.BreakEffect()
 	Duel.DiscardDeck(tp,3,REASON_EFFECT)
 end
